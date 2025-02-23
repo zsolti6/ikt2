@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\halak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\asus\\desktop\\halak\\controllers\\fogasokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:controllers\\fogasokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\asus\\desktop\\halak\\dtos\\fogasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:dtos\\fogasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\asus\\desktop\\halak\\models\\fogasok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:models\\fogasok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\asus\\desktop\\halak\\models\\halakdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:models\\halakdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\asus\\desktop\\halak\\controllers\\halakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:controllers\\halakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\asus\\desktop\\halak\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\asus\\desktop\\halak\\controllers\\tavakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:controllers\\tavakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\asus\\desktop\\halak\\controllers\\horgaszokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:controllers\\horgaszokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HalakDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\halak\\Models\\HalakDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\HalakDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\halak\\Models\\HalakDbContext.cs",
+              "RelativeToolTip": "Models\\HalakDbContext.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAiwHoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:57:18.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FogasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\halak\\DTOs\\FogasDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\FogasDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\halak\\DTOs\\FogasDTO.cs",
+              "RelativeToolTip": "DTOs\\FogasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:37:33.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TavakController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\halak\\Controllers\\TavakController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TavakController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\halak\\Controllers\\TavakController.cs",
+              "RelativeToolTip": "Controllers\\TavakController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAA6wGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:04:25.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FogasokController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\halak\\Controllers\\FogasokController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FogasokController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\halak\\Controllers\\FogasokController.cs",
+              "RelativeToolTip": "Controllers\\FogasokController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAC4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:26:20.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\halak\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\halak\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:24:47.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HalakController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\halak\\Controllers\\HalakController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HalakController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\halak\\Controllers\\HalakController.cs",
+              "RelativeToolTip": "Controllers\\HalakController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAqwGMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:25:38.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fogasok.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\halak\\Models\\Fogasok.cs",
+              "RelativeDocumentMoniker": "Models\\Fogasok.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\halak\\Models\\Fogasok.cs",
+              "RelativeToolTip": "Models\\Fogasok.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:49:13.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HorgaszokController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\halak\\Controllers\\HorgaszokController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HorgaszokController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\halak\\Controllers\\HorgaszokController.cs",
+              "RelativeToolTip": "Controllers\\HorgaszokController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwGIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:04:18.137Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
