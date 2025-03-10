@@ -21,6 +21,20 @@ export const Halak = () => {
     setNewHal({ ...newHal, [name]: value });
   };
 
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+    reader.onloadend = () => {
+      const base64String = reader.result.replace("data:", "").replace(/^.+,/, "");
+      if (editHal) {
+        setEditHal({ ...editHal, kep: base64String });
+      } else {
+        setNewHal({ ...newHal, kep: base64String });
+      }
+    };
+    reader.readAsDataURL(file);
+  };
+
   const handleAddHal = async () => {
     await axios.post("https://localhost:7067/api/Halak", newHal);
     fetchHalak();
@@ -92,12 +106,9 @@ export const Halak = () => {
               </div>
               <div className="mb-3">
                 <input
-                  type="text"
+                  type="file"
                   className="form-control"
-                  placeholder="Kép (Base64)"
-                  name="kep"
-                  value={editHal ? editHal.kep : newHal.kep}
-                  onChange={(e) => (editHal ? setEditHal({ ...editHal, kep: e.target.value }) : handleInputChange(e))}
+                                    onChange={handleFileChange}
                 />
               </div>
               <button
@@ -126,6 +137,9 @@ export const Halak = () => {
                   <li key={hal.id} className="list-group-item d-flex justify-content-between align-items-center">
                     <div>
                       <strong>{hal.nev}</strong> - {hal.faj} ({hal.meretCm} cm)
+                      <div>
+                        <img src={`data:image/jpeg;base64,${hal.kep}`} alt={hal.nev} className="img-fluid mt-2" style={{ maxHeight: "100px" }} />
+                      </div>
                     </div>
                     <div>
                       <button
