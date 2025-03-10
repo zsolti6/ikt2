@@ -1,31 +1,15 @@
 [
   {
-    "ContainingType": "FogasokController",
-    "Method": "GetFogasok",
+    "ContainingType": "halak.Controllers.FogasokController",
+    "Method": "GetFogasoks",
     "RelativePath": "api/Fogasok",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FogasokController",
-    "Method": "PostFogas",
-    "RelativePath": "api/Fogasok",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "fogasDto",
-        "Type": "halak.DTOs.FogasDTO",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": [
       {
-        "Type": "halak.DTOs.FogasDTO",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -36,8 +20,34 @@
     ]
   },
   {
-    "ContainingType": "FogasokController",
-    "Method": "GetFogas",
+    "ContainingType": "halak.Controllers.FogasokController",
+    "Method": "PostFogasok",
+    "RelativePath": "api/Fogasok",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fogasok",
+        "Type": "halak.Models.Fogasok",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "halak.Models.Fogasok",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "halak.Controllers.FogasokController",
+    "Method": "GetFogasok",
     "RelativePath": "api/Fogasok/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -49,11 +59,21 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "halak.Models.Fogasok",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "FogasokController",
-    "Method": "PutFogas",
+    "ContainingType": "halak.Controllers.FogasokController",
+    "Method": "PutFogasok",
     "RelativePath": "api/Fogasok/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -65,16 +85,16 @@
         "IsRequired": true
       },
       {
-        "Name": "fogasDto",
-        "Type": "halak.DTOs.FogasDTO",
+        "Name": "fogasok",
+        "Type": "halak.Models.Fogasok",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FogasokController",
-    "Method": "DeleteFogas",
+    "ContainingType": "halak.Controllers.FogasokController",
+    "Method": "DeleteFogasok",
     "RelativePath": "api/Fogasok/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,

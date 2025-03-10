@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "DLIzcfnAONa3rrskDoFVNHHoU3dv8yGffqMZbIb0BxQ=",
+  "Hash": "O2c2YSlmCbpZRNJbpItEoD4a/+fcm0kR8QT3JyFzzvk=",
   "Source": "halak",
   "BasePath": "_content/halak",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
